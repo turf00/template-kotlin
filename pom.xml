@@ -17,8 +17,8 @@
         <maven.compiler.target>1.8</maven.compiler.target>
 
         <!-- Dependency versions -->
-        <kotlin.version>1.1.0</kotlin.version>
-        <junit.version>4.12</junit.version>
+        <kotlin.version>1.2.61</kotlin.version>
+        <junit.version>5.2.0</junit.version>
     </properties>
 
     <scm>
@@ -50,8 +50,8 @@
             <artifactId>kotlin-stdlib</artifactId>
         </dependency>
         <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
             <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
